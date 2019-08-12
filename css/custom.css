@@ -1,0 +1,21 @@
+.bg-primary{
+    background-color: black;
+}
+.bg-secondary {
+    background-color: #FF1929 !important;
+}
+.text-secondary{
+    color: #FFFA33 !important;
+}
+.me_photo{
+    border-radius: .5em;
+}
+
+.portfolio{
+    background-color: #0977B3;
+}
+
+a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
+    background-color: #FFFA33 !important;
+    color: black !important;
+}
