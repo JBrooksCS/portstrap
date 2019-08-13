@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker&display=swap');
 
+/* @media (min-width: 992px) */
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: rgb(9, 119, 179);
+}
+a:hover {
+    color: rgb(9, 119, 179);
+    text-decoration: underline;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: rgb(9, 119, 179);
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: rgb(9, 119, 179);
+}
+
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #000000;
+}
+
 .bg-primary{
     background-color: black;
 }
@@ -36,6 +58,14 @@ h2{
 }
 
 a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
-    background-color: #FFFA33 !important;
+    background-color: rgb(9, 119, 179)!important;
     color: black !important;
+}
+#sendMessageButton{
+    background-color: black;
+    border-color: rgb(9, 119, 179) ;
+}
+#sendMessageButton:hover{
+    background-color:  rgb(9, 119, 179) ;
+    border-color: black;
 }
