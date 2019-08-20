@@ -6,11 +6,11 @@
     background: rgb(9, 119, 179);
 }
 a:hover {
-    color: rgb(9, 119, 179);
+    color: rgb(130, 189, 221);
     text-decoration: underline;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: rgb(9, 119, 179);
+    color: rgb(238, 224, 34);
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -24,6 +24,9 @@ a:hover {
 .bg-primary{
     background-color: black;
 }
+/* .btn-primary{
+    background-color: black;
+} */
 .bg-secondary {
     background-color: rgb(255, 25, 41) !important;
 }
@@ -43,7 +46,9 @@ h2{
     color: rgb(9, 119, 179) !important;
 }
 .me_photo{
+
     border-radius: .5em;
+    object-fit: contain;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -67,4 +72,14 @@ a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-prima
 #sendMessageButton:hover{
     background-color:  rgb(9, 119, 179) ;
     border-color: black;
+}
+a {
+    color: black ;
+}
+
+.footer{
+    background-color: rgb(9, 119, 179)!important;
+}
+.copyright{
+    background-color: black!important;
 }
