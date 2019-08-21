@@ -2,7 +2,7 @@
 
 /* @media (min-width: 992px) */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
+    color: #737373;
     background: rgb(9, 119, 179);
 }
 a:hover {
@@ -13,28 +13,32 @@ a:hover {
     color: rgb(238, 224, 34);
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: rgb(9, 119, 179);
+    color: #737373;
+    background: black;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #000000;
+    color: #0B0B0B;
 }
 
 .bg-primary{
-    background-color: black;
+    background-color:  black;
 }
 /* .btn-primary{
     background-color: black;
 } */
 .bg-secondary {
-    background-color: rgb(255, 25, 41) !important;
+
+    background-color: #F2F2F2 !important;
 }
 .masthead-heading{
     font-family: "Permanent Marker" !important;
 }
 .masthead-subheading{
     font-family: "Lato" !important;
+}
+.masthead{
+    padding-bottom: 18rem;
 }
 h2{
     font-family: "Lato" !important;
@@ -43,7 +47,7 @@ h2{
     justify-content: center;
 }
 .text-secondary{
-    color: rgb(9, 119, 179) !important;
+    color: rgb(207, 206, 218) !important;
 }
 .me_photo{
 
@@ -60,21 +64,24 @@ h2{
     opacity: 0;
     background-color: rgba(9, 119, 179, 0.4);
 }
+.portfolio{
+    background-color: rgb(23, 43, 70);
+}
 
 a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
-    background-color: rgb(9, 119, 179)!important;
-    color: black !important;
+    background-color: blue!important;
+    color: rgb(207, 206, 218)  !important;
 }
 #sendMessageButton{
-    background-color: black;
+    background-color: #262626;
     border-color: rgb(9, 119, 179) ;
 }
 #sendMessageButton:hover{
     background-color:  rgb(9, 119, 179) ;
-    border-color: black;
+    border-color: #262626;
 }
 a {
-    color: black ;
+    color: #262626 ;
 }
 
 .footer{
