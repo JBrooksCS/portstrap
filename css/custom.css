@@ -10,11 +10,17 @@ a:hover {
     text-decoration: underline;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: rgb(238, 224, 34);
+    color: rgb(65, 65, 255);
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #737373;
+    color: #f1f1f1;
     background: black;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active:focus-within{
+    background-color: rgb(65, 65, 255);
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active:visited{
+    background-color: rgb(65, 65, 255);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -80,7 +86,7 @@ h2{
 
 }
 .portfolio{
-    background-color: rgb(10, 47, 95);
+    background-color: rgb(50, 50, 197);
     /* padding-bottom: 6rem !important; */
 
 
@@ -91,8 +97,8 @@ h2{
 }
 
 a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
-    background-color: blue!important;
-    color: rgb(207, 206, 218)  !important;
+    background-color: rgb(65, 65, 255)!important;
+    color: rgb(95, 88, 163)  !important;
 }
 #sendMessageButton{
     background-color: #262626;
@@ -107,7 +113,7 @@ a {
 }
 
 .footer{
-    background-color: rgb(9, 119, 179)!important;
+    background-color: rgb(65, 65, 255)!important;;
 }
 .copyright{
     background-color: black!important;
