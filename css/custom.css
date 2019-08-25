@@ -59,20 +59,22 @@ h2{
     justify-content: center;
 }
 .text-secondary{
-    color: rgb(207, 206, 218) !important;
+    color: rgb(0, 0, 0) !important;
 }
 .me_photo{
     border-radius: .5em;
     object-fit: contain;
 }
 .videoDiv{
-    
+    /* box-shadow: 10px 5px 5px red; */
+
 
 }
 #video{
     margin-top: 7rem;
-
 }
+
+
 
 .portfolio .portfolio-item .portfolio-item-caption {
     /* padding-top: 4rem; */
@@ -93,7 +95,10 @@ h2{
 }
 .section_1{
     padding-bottom: 20rem;
-
+}
+.section_3{
+    margin-top: 0rem;
+    background-color: rgb(50, 50, 197);
 }
 
 a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
@@ -113,7 +118,7 @@ a {
 }
 
 .footer{
-    background-color: rgb(65, 65, 255)!important;;
+    background-color: rgb(0, 0, 0)!important;;
 }
 .copyright{
     background-color: black!important;
