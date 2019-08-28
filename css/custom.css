@@ -47,12 +47,16 @@ a:hover {
 }
 .masthead{
     padding-top: 0 !important;
-    padding-bottom: 30rem;
+    /* padding-bottom: 30rem; */
+}
+.masthead .masthead-avatar {
+    width: 25rem !important;
+    margin-top: 25rem;
 }
 
 h2{
     font-family: "Lato" !important;
-    margin-top: 340px;
+    /* margin-top: 340px; */
 
 }
 .row{
@@ -62,8 +66,8 @@ h2{
     color: rgb(0, 0, 0) !important;
 }
 .me_photo{
-    border-radius: .5em;
-    object-fit: contain;
+    /* border-radius: .5em; */
+    /* object-fit: contain; */
 }
 .videoDiv{
     /* box-shadow: 10px 5px 5px red; */
