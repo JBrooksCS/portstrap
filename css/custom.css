@@ -59,15 +59,21 @@ h2{
     /* margin-top: 340px; */
 
 }
+.profile_photos{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
 .row{
     justify-content: center;
 }
 .text-secondary{
-    color: rgb(0, 0, 0) !important;
+    color: rgb(241, 241, 241) !important;
 }
 .me_photo{
     /* border-radius: .5em; */
-    /* object-fit: contain; */
+    object-fit: contain;
 }
 .videoDiv{
     /* box-shadow: 10px 5px 5px red; */
