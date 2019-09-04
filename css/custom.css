@@ -3,7 +3,7 @@
 /* @media (min-width: 992px) */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #737373;
-    background: rgb(9, 119, 179);
+    background: rgb(65, 65, 255) !important;
 }
 a:hover {
     color: rgb(130, 189, 221);
@@ -13,7 +13,7 @@ a:hover {
     color: rgb(65, 65, 255);
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #f1f1f1;
+    color: #050505;
     background: black;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active:focus-within{
@@ -44,6 +44,8 @@ a:hover {
 }
 .masthead-subheading{
     font-family: "Lato" !important;
+    color: rgb(255, 85, 85);
+    
 }
 .masthead{
     padding-top: 0 !important;
@@ -62,8 +64,7 @@ h2{
 .profile_photos{
     display: flex;
     justify-content: space-evenly;
-
-
+    
 }
 .row{
     justify-content: center;
@@ -72,36 +73,37 @@ h2{
     color: rgb(241, 241, 241) !important;
 }
 .me_photo{
-    /* border-radius: .5em; */
+    border-radius: .2em;
     object-fit: contain;
+    border: 3px solid rgb(50, 50, 197);
 }
-.videoDiv{
-    /* box-shadow: 10px 5px 5px red; */
-
-
+.modal-body{
+    background-color: rgb(87, 87, 87);
+    border-radius: .5em;
 }
 #video{
     margin-top: 7rem;
 }
-
-
-
 .portfolio .portfolio-item .portfolio-item-caption {
     /* padding-top: 4rem; */
-    
     position: absolute;
     top: 0;
     left: 0;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 0;
-
 }
 .portfolio{
     background-color: rgb(50, 50, 197);
     /* padding-bottom: 6rem !important; */
+}
+.portfolio-item{
+    box-shadow: 5px 7px #00000063;
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
 
-
+    background-color: rgb(80, 92, 255) !important;
+    opacity: .7;
 }
 .section_1{
     padding-bottom: 20rem;
@@ -110,11 +112,44 @@ h2{
     margin-top: 0rem;
     background-color: rgb(50, 50, 197);
 }
-
 a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
     background-color: rgb(65, 65, 255)!important;
     color: rgb(95, 88, 163)  !important;
 }
+.strangehandle{
+    text-decoration: none;
+    color: rgb(255, 85, 85);
+}
+/* .technology_parent{
+    display: flex;
+    flex-direction: column;
+
+} */
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+.technologies_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.technology_item{
+    max-height: 80px;
+}
+.js{
+    padding-top: .8em;
+}
+.sql{
+    padding-left: 2.4em;
+}
+.dotnet{
+    padding-left: 2em;
+}
+
+
 #sendMessageButton{
     background-color: #262626;
     border-color: rgb(9, 119, 179) ;
