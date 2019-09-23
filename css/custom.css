@@ -4,7 +4,7 @@
     --main-bg-color: #0D0D0D;
   }
 :root {
-    --secondary-bg-color: rgb(48, 61, 240);
+    --secondary-bg-color: rgb(57, 153, 81);
   }
 :root {
     --dark-bg-color: #0D0D0D;
@@ -26,7 +26,7 @@
     background-color: var(--main-bg-color) !important;
 }
 #mainNav .navbar-brand {
-    color: rgb(55, 55, 248);
+    color: var(--secondary-bg-color);
 }
 a:hover {
     color: rgb(130, 189, 221);
@@ -34,19 +34,28 @@ a:hover {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
     color: var(--main-bg-color);
+    background-color: var(--secondary-bg-color);
+
+    
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: var(--dark-bg-color);
+    color: var(--secondary-bg-color);
     background: var(--dark-bg-color);
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active:focus-within{
-    background-color: var(--main-bg-color);
+    color: var(--light-bg-color) !important;
+
+    background-color: var(--secondary-bg-color);
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link.active:visited{
-    background-color: var(--main-bg-color);
+    background-color: var(--dark-bg-color) !important;
+    /* color: var(--light-bg-color) !important; */
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: var(--light-bg-color) !important;
+
     color: var(--dark-bg-color);
 }
 
@@ -141,7 +150,7 @@ h2{
     background-color: var(--dark2-bg-color);
 }
 a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
-    background-color: var(--main-bg-color) !important;
+    background-color: var(--secondary-bg-color) !important;
     color: rgb(95, 88, 163)  !important;
 }
 .strangehandle{
