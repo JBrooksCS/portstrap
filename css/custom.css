@@ -139,7 +139,7 @@ h2{
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
 
-    background-color: var(--main-bg-color) !important;
+    background-color: var(--main-bg-color) ;
     opacity: .7;
 }
 .section_1{
